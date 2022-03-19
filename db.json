@@ -1,0 +1,200 @@
+{
+  "issues": {
+    "tasks": {
+      "1792300a-4ace-40a5-a433-2430e412d1db": {
+        "id": "1792300a-4ace-40a5-a433-2430e412d1db",
+        "title": "Уникальный идентификатор для каждой задачи",
+        "description": "Надо чтобы каждая таска имела уникальное ID",
+        "projectName": "Bleach Bankai",
+        "taskKey": 1
+      },
+      "4063b035-0a07-4455-bf6d-9a510f6d70b2": {
+        "id": "4063b035-0a07-4455-bf6d-9a510f6d70b2",
+        "title": "Сделать sharing задачи по ID",
+        "description": "Надо чтобы мы могли поделиться задачей с другим человеком. Ссылка должна содержать ID задачи в query параметрах.",
+        "projectName": "Bleach Bankai",
+        "taskKey": 2
+      },
+      "cf7ee223-8eac-44fb-a5f9-52a1a3e3832a": {
+        "id": "cf7ee223-8eac-44fb-a5f9-52a1a3e3832a",
+        "title": "Создать поле определения типа задачи",
+        "description": "Внести в проект возможность определить тип задачи чтобы понимать для каких целей он нужен и что он решает",
+        "projectName": "Bleach Bankai",
+        "taskKey": 3
+      },
+      "1d63ed3d-0428-49b2-9ac0-af32727723cd": {
+        "id": "1d63ed3d-0428-49b2-9ac0-af32727723cd",
+        "title": "Создать кнопку удаления внутри таски",
+        "description": "Сделать фичу удаления таски внутри модального окна",
+        "projectName": "Bleach Bankai",
+        "taskKey": 4
+      },
+      "bb6aa270-085d-4e82-be8f-8e196860a0af": {
+        "id": "bb6aa270-085d-4e82-be8f-8e196860a0af",
+        "title": "Зафиксить положение тасков в колонке [Не остаются в колонке после рефреша]",
+        "description": "Зафиксить положение тасков в колонке [Не остаются в колонке после рефреша]",
+        "projectName": "Bleach Bankai",
+        "taskKey": 5
+      },
+      "5db1c1a1-ec1b-4d03-b05e-872ab0f17a41": {
+        "id": "5db1c1a1-ec1b-4d03-b05e-872ab0f17a41",
+        "title": "Добавить возможность переименовывать заголовки задач",
+        "description": "",
+        "projectName": "Broking Manager",
+        "taskKey": 8
+      },
+      "ebf87006-9566-4897-b227-4474d5589348": {
+        "id": "ebf87006-9566-4897-b227-4474d5589348",
+        "title": "Создать иконку \"Действовать\" чтобы действовать",
+        "description": "Надо чтобы данная кнопка копировала адресную строку и после копирования выдавала тулпит о том, чтобы юзер скопировал строку",
+        "projectName": "Broking Manager",
+        "taskKey": 11
+      },
+      "ab48e6f4-653e-4e6d-b220-ea55053fe488": {
+        "id": "ab48e6f4-653e-4e6d-b220-ea55053fe488",
+        "title": "Сделать Spinner для асинхронных операций",
+        "description": "Не всегда понятно что процесс начат и происходит некая операция, надо сделать некий Loader/Spinner который будет крутиться пока идет операция.",
+        "projectName": "Broking Manager",
+        "taskKey": 20
+      },
+      "9fce291f-b490-41e6-be63-1eb88c09916d": {
+        "id": "9fce291f-b490-41e6-be63-1eb88c09916d",
+        "title": "Добавить скролл для задач",
+        "description": "Надо чтобы не нужно было скролить вниз весь сайт чтобы увидеть другие задачи, пусть задачи будут скролиться внутри блока.",
+        "projectName": "Broking Manager",
+        "taskKey": 21
+      },
+      "d482d2b4-0068-4c91-8d42-f908d65bffbf": {
+        "id": "d482d2b4-0068-4c91-8d42-f908d65bffbf",
+        "title": "Создать компонент Tooltip",
+        "description": "Надо чтобы при наведении на каждый элемент выходил Tooltip который подсказывал бы, что делает данный элемент. Tooltip должен уметь выходить слева,справа,сверху и снизу.",
+        "projectName": "Broking Manager",
+        "taskKey": 22
+      },
+      "64fb8ee2-861d-4e2b-aae8-603a11cb6465": {
+        "id": "64fb8ee2-861d-4e2b-aae8-603a11cb6465",
+        "title": "Сделать Dropdown для иконки действовать",
+        "description": "Сделать Dropdown для иконки действовать, чтобы при нажатии он выскакивал",
+        "projectName": "Broking Manager",
+        "taskKey": 23
+      },
+      "cd6a6060-725c-45eb-ad30-9210c7095564": {
+        "id": "cd6a6060-725c-45eb-ad30-9210c7095564",
+        "title": "Сделать функциональность Share",
+        "description": "Надо чтобы была иконка для Share, при нажатии на который ссылка на задачу копировалась для дальнейшей передачи",
+        "projectName": "Broking Manager",
+        "taskKey": 24
+      },
+      "a6b240b9-c4ab-4559-9a09-7525ff5866da": {
+        "id": "a6b240b9-c4ab-4559-9a09-7525ff5866da",
+        "title": "Добавить State Managment в проект (Redux)",
+        "description": "В данный момент нет никакого способа контролировать состояния компонентов на глобальном уровне",
+        "projectName": "Broking Manager",
+        "taskKey": 25
+      },
+      "80df6994-b2d9-4137-9f37-a59ce34daba0": {
+        "id": "80df6994-b2d9-4137-9f37-a59ce34daba0",
+        "title": "Создать поле определения приоритетности задачи",
+        "description": "Надо понять какие задачи более приоритетны, для этого надо реализовать способ определения приоритетности по иконкам",
+        "projectName": "Broking Manager",
+        "taskKey": 26
+      },
+      "0e65f33a-cb81-44af-99b9-5694dc2b10fa": {
+        "id": "0e65f33a-cb81-44af-99b9-5694dc2b10fa",
+        "title": "Что такое чистая функция?",
+        "description": "<p>Весь Redux построен на философии чистых функций, надо его изучить и доказать что он работает</p>",
+        "projectName": "Broking Manager",
+        "taskKey": 27
+      },
+      "622d719b-b38f-4946-b356-141cbca20878": {
+        "id": "622d719b-b38f-4946-b356-141cbca20878",
+        "title": "Что такое action creators?",
+        "description": "Данная тема крайне критична для понятия основ Redux",
+        "projectName": "Broking Manager",
+        "taskKey": 28
+      },
+      "f46509b4-4349-48c2-ac07-e0b9f8bb3865": {
+        "id": "f46509b4-4349-48c2-ac07-e0b9f8bb3865",
+        "title": "Что такое иммутабелность?",
+        "description": "Привести пару практических примеров на эту тему",
+        "projectName": "Broking Manager",
+        "taskKey": 29
+      },
+      "afadbfd7-98e3-4200-89e3-11c9a1bad82f": {
+        "id": "afadbfd7-98e3-4200-89e3-11c9a1bad82f",
+        "title": "Узнать и ознакомиться с принципом Big - O (Крайне критично)",
+        "description": "Скорость вычислений алгоритмов и способ их оптимизации, крайне критичная тема",
+        "projectName": "Broking Manager",
+        "taskKey": 30
+      },
+      "f41e3c97-1879-49d0-ab27-654ba878e797": {
+        "id": "f41e3c97-1879-49d0-ab27-654ba878e797",
+        "title": "Реализовать систему отслеживании времени (MomentJS/Date-fns)",
+        "description": "Надо чтобы можно было определять когда была таска была создана",
+        "projectName": "Broking Manager",
+        "taskKey": 31
+      },
+      "540e962e-296b-4f31-9cbd-ad1d9dfc333c": {
+        "id": "540e962e-296b-4f31-9cbd-ad1d9dfc333c",
+        "title": "Отрефакторить код и перенести кодовую базу на UI фреймворк React Suite",
+        "description": "<ol><li>Есть задача по <strong>переносу UI Олег <u>Айдана </u></strong></li><li>Убить Олега - Мечтает Айдана - React</li><li>Айдана - React</li><li>Купить Картошку</li><li>Убить Айдану</li></ol>",
+        "projectName": "Broking Manager",
+        "taskKey": 35,
+        "createdAt": "Sat Mar 1 2022 20:36:05 GMT+0600 (Восточный Казахстан)"
+      }
+    },
+    "columns": {
+      "column1": {
+        "id": "column1",
+        "title": "To do",
+        "taskIds": [
+          "80df6994-b2d9-4137-9f37-a59ce34daba0",
+          "cf7ee223-8eac-44fb-a5f9-52a1a3e3832a"
+        ]
+      },
+      "column2": {
+        "id": "column2",
+        "title": "In Progress",
+        "taskIds": [
+          "a6b240b9-c4ab-4559-9a09-7525ff5866da"
+        ]
+      },
+      "column3": {
+        "id": "column3",
+        "title": "In Testing",
+        "taskIds": [
+          "f41e3c97-1879-49d0-ab27-654ba878e797",
+          "0e65f33a-cb81-44af-99b9-5694dc2b10fa",
+          "afadbfd7-98e3-4200-89e3-11c9a1bad82f",
+          "f46509b4-4349-48c2-ac07-e0b9f8bb3865",
+          "622d719b-b38f-4946-b356-141cbca20878"
+        ]
+      },
+      "column4": {
+        "id": "column4",
+        "title": "Done",
+        "taskIds": [
+          "540e962e-296b-4f31-9cbd-ad1d9dfc333c",
+          "cd6a6060-725c-45eb-ad30-9210c7095564",
+          "64fb8ee2-861d-4e2b-aae8-603a11cb6465",
+          "ebf87006-9566-4897-b227-4474d5589348",
+          "9fce291f-b490-41e6-be63-1eb88c09916d",
+          "d482d2b4-0068-4c91-8d42-f908d65bffbf",
+          "bb6aa270-085d-4e82-be8f-8e196860a0af",
+          "5db1c1a1-ec1b-4d03-b05e-872ab0f17a41",
+          "ab48e6f4-653e-4e6d-b220-ea55053fe488",
+          "4063b035-0a07-4455-bf6d-9a510f6d70b2",
+          "1792300a-4ace-40a5-a433-2430e412d1db",
+          "1d63ed3d-0428-49b2-9ac0-af32727723cd"
+        ]
+      }
+    },
+    "columnOrder": [
+      "column1",
+      "column2",
+      "column3",
+      "column4"
+    ],
+    "tasksCount": 36
+  }
+}
